@@ -1,0 +1,5 @@
+*.iml
+.idea/
+bulild/
+sources.txt
+out/
