@@ -7,8 +7,6 @@ public class Task1 {
         Integer number4 = new Integer(20);
         Integer number5 = number1;
         Integer number8 = new Integer(number1);
-        int number6 = number3;
-        int number7 = number4;
         System.out.println("Autoboxing: " + number5 + ", " + number8 + "\nAutounboxing: " + number3 + ", " + number4);
     }
 }

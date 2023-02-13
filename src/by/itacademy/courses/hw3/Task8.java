@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Task8 {
     public static void main(String[] args) {
-        Scanner in = new Scanner(System.in);
         int timeseconds = (int) (Math.random() * (28801 - 0) + 0);
         int result = timeseconds / 60 / 60;
         if (result >= 5 && result < 8) {

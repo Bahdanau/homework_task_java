@@ -1,7 +1,5 @@
 package by.itacademy.courses.hw3;
 
-import java.util.Scanner;
-
 public class Task4 {
     public static void main(String[] args) {
         int a = 3;

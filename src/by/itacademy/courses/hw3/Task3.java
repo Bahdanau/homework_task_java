@@ -12,7 +12,6 @@ public class Task3 {
     }
 
     public static void methodSwitch(int dayWeek) {
-        dayWeek = dayWeek;
         switch (dayWeek) {
             case 1:
                 System.out.println("Monday");
