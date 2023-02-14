@@ -28,8 +28,11 @@ public class Task3 {
             case 5:
                 System.out.println("Friday");
                 break;
-            case 6, 7:
-                System.out.println("Weeknd");
+            case 6:
+                System.out.println("Weekend");
+                break;
+            case 7:
+                System.out.println("Weekend");
                 break;
             default:
                 System.out.println("Wrong number");
@@ -48,7 +51,7 @@ public class Task3 {
         } else if (dayWeek == 5) {
             System.out.println("Friday");
         } else if (dayWeek == 6 || dayWeek == 7) {
-            System.out.println("Weeknd");
+            System.out.println("Weekend");
         } else {
             System.out.println("Wrong number");
         }
