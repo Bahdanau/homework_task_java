@@ -10,11 +10,11 @@ public class Task5 {
         if (number > 0 && number < 60) {
             if (number < 15) {
                 System.out.println("First half hour");
-            } else if (number >= 15 && number < 30) {
+            } else if (number < 30) {
                 System.out.println("Second half hour");
-            } else if (number >= 30 && number < 45) {
+            } else if (number < 45) {
                 System.out.println("Third half hour");
-            } else if (number >= 45 && number < 60) {
+            } else if (number < 60) {
                 System.out.println("Fourth half hour");
             }
         } else {
