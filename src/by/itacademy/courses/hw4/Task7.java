@@ -5,7 +5,7 @@ public class Task7 {
         int[] myArray1 = new int[20];
         int j = 0;
         for (int i = 0; i < myArray1.length; i++) {
-            myArray1[i] = (int) (Math.random() * (20 - 0) + 0);
+            myArray1[i] = (int) (Math.random() * (20));
             j++;
         }
         System.out.println("Массив с случайными элементами: ");
