@@ -19,7 +19,7 @@ public class Task5 {
         for (String string : strings) {
             textBuilder.append(string + ".");
         }
-        System.out.print(textBuilder.toString());
+        System.out.print(textBuilder);
 
 
     }
